@@ -20,6 +20,20 @@
     background-image: linear-gradient(rgba(255,255,255, .1), rgba(34,40,49, 1));
 }
 
+.bodyp{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(34, 40, 49, 0.911);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: -2%;
+}
+
+.cont-p{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(197, 52, 52))
+}
 
 .bg-dark{
     position: fixed;
@@ -69,6 +83,17 @@
   font-family: 'Anton';
   background-color: #ff2600d0;
 }
+
+.text-ajax{
+    min-height: 1vh;
+    padding-left: 5%;
+    text-align: center;
+    color: #f4f4f4;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    background-color: #ff2600d0;
+}
+
 .text-header p{
     font-size: 1em;
 }
